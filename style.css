@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'name';
+    src: url('Bolinker Quantum') format(trutype), url(/font/daisy-fillo-graphic/Daisy.otf);
+}
+
+body {
+    background-image: url(imagem/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-left: 20px;
+    padding-top: 600px;
+}
+
+.text h1 {
+    color: #c65038;
+    font-family: 'name';
+    font-size: 70px;
+    text-align: left;
+}
+
+.text p {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 0px;
+    color: #e2725b;
+    font-size: 25px;
+    font-family: 'name';
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.info p {
+    color: #e2725b;
+    font-size: 50px;
+    font-family: 'name';
+    padding-left: 10px;
+}
+
+.data {
+    display: block;
+}
+
+.data h2 {
+    color: #e2725b;
+    font-size: 70px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.data .align {
+    padding-left: 50px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e2725b;
+}
+
+.buttonicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    height: 250px;
+}
+
+.icons {
+    display: block;
+    padding-left: 150px;
+}
+
+.icons p {
+    color: #e2725b;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.icons img {
+    height: 60px;
+}
+
+.centralizar {
+    padding-left: 100px;
+}
+
+
+.confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.textconfirm{
+    padding: 40px 0px;
+}
+
+.confirm h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e2725b;
+}
+
+.confirm p {
+    color: #e2725b;
+    font-size: 23px;
+    font-family: 'name';
+}
+
+@media(max-width: 1209px) {
+    body {
+        background-image: url(imagem/imagem1209.png);
+    }
+}
+
+@media(max-width: 1132px) {
+    body {
+        background-image: url(imagem/fundo1132.png);
+    }
+}
+
+@media(max-width: 1050px) {
+
+    body{
+        background-image: url(imagem/fundo1050.png);
+    }
+
+    .buttonicon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        padding-right: 150px;
+    }
+
+    .centralizar {
+        padding-left: 0px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 60px;
+    }
+    
+
+}
+
+@media(max-width: 1048px) {
+    body {
+        background-image: url(imagem/imagem1048.png);
+        background-position: center center;
+    }
+}
+
+@media(max-width: 800px) {
+    .text h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 583px) {
+    .icons .pcentral {
+        font-size:20px;
+    }
+}
+
+@media(max-width: 583px) {
+    .text h1 {
+        font-size: 43px;
+    }
+}
+
+@media(max-width: 400px) {
+    .text h1 {
+            font-size: 25px;
+        }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    .info p {
+        font-size: 20px;
+        padding-left: 26px;
+    }
+
+    .data {
+        padding-left: 0px;
+    }
+
+    .data h2 {
+        font-size: 25px;
+        padding-left: 45px;
+    }
+
+    .endereco p {
+        font-size: 22px;
+    }
+
+    .titleconfirm {
+        font-size: 12px;
+    }
+}
