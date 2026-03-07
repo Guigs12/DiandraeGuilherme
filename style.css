@@ -213,12 +213,13 @@ body {
     }
 
     .text h1 {
-        font-family: 'name';
+        font-family: 'name' !important;
         font-size: 23px;
         text-align: center;
     }
 
     .text p {
+        font-family: 'name';
         font-size: 15px;
     }
 
