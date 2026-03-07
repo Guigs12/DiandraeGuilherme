@@ -224,11 +224,12 @@ body {
 
     .info p {
         font-size: 15px;
+        padding-left: 30px;
     }
 
     .data h2 {
         font-size: 30px;
-        padding-left: 29px;
+        padding-left: 38px;
     }
 
     .endereco p {
