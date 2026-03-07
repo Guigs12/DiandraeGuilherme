@@ -213,25 +213,24 @@ body {
     }
 
     .text h1 {
-        font-family: 'name' !important;
+        font-family: 'name';
         font-size: 23px;
         text-align: center;
     }
 
     .text p {
-        font-family: 'name';
         font-size: 15px;
     }
 
     .info p {
         font-family: 'names';
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 25px;
     }
 
     .data h2 {
         font-size: 28px;
-        padding:20px 36px;
+        padding-left: 36px;
     }
 
     .data .align {
