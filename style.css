@@ -201,6 +201,9 @@ body {
 }
 
 @media(max-width: 400px) {
+    body {
+        background-image: url(imagem/imagem400.png);
+    }
 
     .titulo {
         padding-left: 0px;
@@ -218,6 +221,11 @@ body {
 
     .info p {
         font-size: 15px;
+    }
+
+    .data h2 {
+        font-size: 42px;
+        padding-left: 29px;
     }
 
     .endereco p {
