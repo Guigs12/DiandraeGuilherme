@@ -202,7 +202,7 @@ body {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media(max-width: 400px) {
 
     .titulo {
         padding-left: 0px;
@@ -233,10 +233,6 @@ body {
     }
 
     .confirm h2 {
-        font-size: 20px;
-    }
-
-    .confirm p {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
