@@ -223,7 +223,8 @@ body {
     }
 
     .info p {
-        font-size: 20px;
+        font-family: 'names';
+        font-size: 25px;
         padding-left: 25px;
     }
 
@@ -241,7 +242,7 @@ body {
     }
 
     .icons p {
-        font-size: 15px;
+        font-size: 25px;
         width: 280px;
         text-align: center;
     }
