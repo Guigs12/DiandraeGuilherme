@@ -230,7 +230,7 @@ body {
 
     .data h2 {
         font-size: 28px;
-        padding-left: 36px;
+        padding:20px 36px;
     }
 
     .data .align {
