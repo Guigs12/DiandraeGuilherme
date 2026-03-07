@@ -190,16 +190,6 @@ body {
     }
 }
 
-@media(max-width: 583px) {
-    .text h1 {
-            font-size: 43px;
-        }
-    
-    .icons .pcentral {
-        font-size:20px;
-    }
-}
-
 @media(max-width: 400px) {
 
     .titulo {
