@@ -232,6 +232,10 @@ body {
         padding-left: 36px;
     }
 
+    .data .align {
+        padding-left: 28px;
+    }
+
     .endereco p {
         font-size: 15px;
     }
