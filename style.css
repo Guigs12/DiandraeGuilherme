@@ -203,39 +203,40 @@ body {
 }
 
 @media(max-width: 400px) {
+
+    .titulo {
+        padding-left: 0px;
+    }
+
     .text h1 {
-            font-family: 'name';
-            font-size: 25px;
-        }
+        font-family: 'name';
+        font-size: 23px;
+        text-align: center;
+    }
 
     .text p {
-        font-family: 'name';
         font-size: 15px;
     }
 
     .info p {
-        font-family: 'name';
-        font-size: 20px;
-        padding-left: 26px;
-    }
-
-    .data {
-        font-family: 'name';
-        padding-left: 0px;
-    }
-
-    .data h2 {
-        font-family: 'name';
-        font-size: 25px;
-        padding-left: 45px;
+        font-size: 15px;
     }
 
     .endereco p {
-        font-family: 'name';
-        font-size: 22px;
+        font-size: 15px;
     }
 
-    .titleconfirm {
-        font-size: 12px;
+    .icons p {
+        font-size: 15px;
+        width: 180px;
+        text-align: center;
+    }
+
+    .confirm h2 {
+        font-size: 20px;
+    }
+
+    .confirm p {
+        font-size: 15px;
     }
 }
