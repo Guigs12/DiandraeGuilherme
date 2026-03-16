@@ -10,19 +10,30 @@
 }
 
 body {
-    background-image: url(imagem/fundo.jpeg);
+    background-image: url(imagem/img1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center center;
 }
 
-.titulo {
+.imgtop {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 1000px;
+}
+
+.imgtop img {
+    height: 300px;
+    margin-top: 500px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: top;
     height: 50vh;
     padding-left: 20px;
-    padding-top: 600px;
 }
 
 .text h1 {
@@ -37,7 +48,7 @@ body {
     padding-top: 50px;
     padding-right: 0px;
     color: #e2725b;
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'name';
 }
 
@@ -118,6 +129,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 400px;
+    padding: 400px 0px;
 }
 
 .textconfirm{
@@ -137,7 +149,10 @@ body {
 
 @media(max-width: 1209px) {
     body {
-        background-image: url(imagem/imagem1209.png);
+        background-image: url(imagem/img2.jpeg);
+        background-position: center center center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
@@ -202,7 +217,7 @@ body {
 
 @media(max-width: 400px) {
     body {
-        background-image: url(imagem/imagem400.png);
+        background-image: url(imagem/img5.jpeg);
         background-position: center center center;
         background-size: cover;
         background-repeat: no-repeat;
