@@ -45,11 +45,25 @@ body {
 
 .text p {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-right: 0px;
     color: #e2725b;
     font-size: 35px;
     font-family: 'name';
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.apresentacao p {
+    color: #c65038;
+    font-family: 'name';
+    font-size: 28px;
+    width: 600px;
 }
 
 .info {
@@ -235,10 +249,6 @@ body {
 
     .text p {
         font-size: 15px;
-    }
-
-    .apresentacao {
-        background-color: black;
     }
 
     .info p {
