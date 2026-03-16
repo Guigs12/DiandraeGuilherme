@@ -237,6 +237,10 @@ body {
         font-size: 15px;
     }
 
+    .apresentacao {
+        background-color: black;
+    }
+
     .info p {
         font-family: 'names';
         font-size: 20px;
