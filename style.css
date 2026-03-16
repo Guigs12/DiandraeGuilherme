@@ -217,7 +217,7 @@ body {
 
 @media(max-width: 400px) {
     body {
-        background-image: url(imagem/img5.jpeg);
+        background-image: url(imagem/img1.jpeg);
         background-position: center center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -235,6 +235,10 @@ body {
 
     .text p {
         font-size: 15px;
+    }
+
+    .apresentacao {
+        background-color: black;
     }
 
     .info p {
