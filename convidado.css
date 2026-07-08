@@ -17,7 +17,7 @@
     background-color: rebeccapurple;
 }
 
-@media(max-width: 800px) {
+@media(min-width: 800px) {
     .apresentacao img {
         width: 100%;
     }
