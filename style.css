@@ -45,7 +45,7 @@ body {
 
 .text p {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 190px;
     padding-right: 0px;
     color: #e2725b;
     font-size: 35px;
@@ -57,6 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
+    padding-top: 150px;
 }
 
 .apresentacao p {
@@ -92,7 +93,7 @@ body {
 }
 
 .data .align {
-    padding-left: 50px;
+    padding-left: 3px;
 }
 
 .endereco {
@@ -117,9 +118,21 @@ body {
     height: 250px;
 }
 
+.btn {
+    border: solid;
+    border-color: #c65038;
+    padding: 15px 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
 .icons {
     display: block;
     padding-left: 150px;
+}
+
+.icons a {
+    text-decoration: none;
 }
 
 .icons p {
@@ -143,7 +156,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 400px;
-    padding: 400px 0px;
+    padding: 550px 0px;
 }
 
 .textconfirm{
