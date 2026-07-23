@@ -269,6 +269,10 @@ body {
         font-size: 15px;
     }
 
+    .apresentacao p {
+        font-size: 15px;
+    }
+
     .info p {
         font-family: 'names';
         font-size: 20px;
@@ -296,11 +300,5 @@ body {
 
     .confirm h2 {
         font-size: 18px;
-    }
-}
-
-@media (min-width: 480px) {
-    .apresentacao p {
-        font-size: 15px;
     }
 }
