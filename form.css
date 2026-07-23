@@ -5,7 +5,9 @@
 }
 
 section {
-    border: solid 1px black;
-    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    min-height: 100vh;
 }
