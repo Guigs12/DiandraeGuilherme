@@ -14,7 +14,20 @@
 
 .apresentacao img {
     width: 90%;
-    background-color: rebeccapurple;
+}
+
+.retorno {
+    display: block;
+    padding: 80px 20px;
+}
+
+.retorno a {
+    border: solid 1px;
+    border-radius: 7px;
+    color: #c65038;
+    font-size: 45px;
+    text-decoration: none;
+    padding: 40px 20px;
 }
 
 @media(min-width: 800px) {
