@@ -299,7 +299,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .apresentacao p {
         font-size: 15px;
     }
