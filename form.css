@@ -4,3 +4,8 @@
     padding: 0;
 }
 
+section {
+    border: solid 1px black;
+    background-color: rebeccapurple;
+    width: 100%;
+}
