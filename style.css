@@ -41,11 +41,16 @@ body {
     font-family: 'name';
     font-size: 70px;
     text-align: left;
+    margin-top: -220px;
+}
+
+.text1 {
+    color: #e2725b;
 }
 
 .text p {
     text-align: center;
-    padding-top: 190px;
+    padding-top: 10px;
     padding-right: 0px;
     color: #e2725b;
     font-size: 35px;
