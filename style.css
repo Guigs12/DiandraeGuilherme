@@ -52,7 +52,7 @@ body {
     text-align: center;
     padding-top: 10px;
     padding-right: 0px;
-    color: #e2725b;
+    color: #c65038;
     font-size: 35px;
     font-family: 'name';
 }
@@ -72,7 +72,7 @@ body {
     font-size: 28px;
     text-align: center;
     width: 100%;
-    margin-top: 400px;
+    margin-top: 1200px;
 }
 
 .apresentacao section {
@@ -81,10 +81,18 @@ body {
 
 .carrosel {
     display: flex;
+    gap: 30px 0px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 670px;
+}
+
+.carrosel p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c65038;
+    font-size: 18px;
+    text-align: center;
 }
 
 .carrosel section img{
@@ -105,8 +113,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 340px;
-    padding-top: 200px;
+    margin-top: 50px;
     background-image: url(imagem/fundobranco.jpeg);
 }
 
@@ -194,22 +201,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 400px;
-    padding: 550px 0px;
+    margin-top: 600px;
 }
 
 .textconfirm{
-    padding: 40px 0px;
+    padding: 0px 0px;
 }
 
 .confirm h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #e2725b;
-}
-
-.confirm p {
-    color: #e2725b;
-    font-size: 23px;
-    font-family: 'name';
+    margin-bottom: 850px;
 }
 
 @media(max-width: 1209px) {
@@ -271,6 +273,9 @@ body {
 }
 
 @media(max-width: 583px) {
+    .imgtop img {
+        height: 400px;
+    }
     .text h1 {
             font-size: 43px;
         }
