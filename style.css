@@ -50,7 +50,6 @@ body {
     color: #e2725b;
     font-size: 35px;
     font-family: 'name';
-    background-image: url(imagem/fundobranco.jpeg);
 }
 
 .apresentacao {
@@ -59,7 +58,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 200px;
-    padding-top: 150px;
+    padding-top: 100px;
     background-image: url(imagem/fundobranco.jpeg);
 }
 
@@ -68,6 +67,8 @@ body {
     font-family: 'name';
     font-size: 28px;
     width: 600px;
+    margin-top: 300px;
+    background-image: url(imagem/fundobranco.jpeg);
 }
 
 .apresentacao section {
