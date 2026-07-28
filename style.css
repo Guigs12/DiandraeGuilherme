@@ -72,6 +72,7 @@ body {
     font-size: 28px;
     text-align: center;
     width: 100%;
+    margin-top: 400px;
 }
 
 .apresentacao section {
@@ -83,11 +84,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .carrosel section img{
     width: 182px;
+}
+
+.carrosel section .festa {
+    width: 182px;
+    height: 323px;
+}
+
+.carrosel section .orla {
+    width: 182px;
+    height: 323px;
 }
 
 .info {
