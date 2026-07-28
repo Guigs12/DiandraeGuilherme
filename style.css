@@ -63,8 +63,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 200px;
-    padding-top: 100px;
-    background-image: url(imagem/fundobranco.jpeg);
+    padding-top: 80px;
 }
 
 .apresentacao p {
@@ -73,16 +72,22 @@ body {
     font-size: 28px;
     text-align: center;
     width: 100%;
-    margin-top: 300px;
-    background-image: url(imagem/fundobranco.jpeg);
 }
 
 .apresentacao section {
     margin: 20px 40px;
 }
 
-.apresentacao section img{
-    width: 142px;
+.carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.carrosel section img{
+    width: 182px;
 }
 
 .info {
