@@ -19,7 +19,7 @@ body {
 }
 
 .apresentacao {
-    width: 100%;
+    width: 120%;
     max-width: 800px;
     display: flex;
     justify-content: center;
