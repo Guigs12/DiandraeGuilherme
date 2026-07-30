@@ -55,6 +55,6 @@ body {
 
 @media(max-width: 583px) {
     .apresentacao img {
-        width: 100%;
+        width: 80%;
     }
 }
