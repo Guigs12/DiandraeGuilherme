@@ -18,16 +18,20 @@ body {
     padding: 20px;
 }
 
+/* O container agora se ajusta à tela sem ultrapassar os limites */
 .apresentacao {
-    width: 150%;
+    width: 100%;
     max-width: 800px;
     display: flex;
     justify-content: center;
 }
 
+/* A imagem fica responsiva e mantém a proporção sem esticar */
 .apresentacao img {
     width: 100%;
+    max-width: 100%;
     height: auto;
+    object-fit: contain;
     border-radius: 8px;
 }
 
@@ -53,8 +57,9 @@ body {
     color: #ffffff;
 }
 
-@media(max-width: 583px) {
-    .apresentacao img {
-        width: 80%;
+/* Ajuste fino apenas para o espaçamento em telas menores */
+@media (max-width: 583px) {
+    .container-manual {
+        padding: 10px;
     }
 }
