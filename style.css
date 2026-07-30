@@ -125,7 +125,6 @@ body {
 
 .data {
     display: block;
-    background-image: url(imagem/fundobranco.jpeg);
 }
 
 .data h2 {
@@ -140,7 +139,6 @@ body {
 }
 
 .endereco {
-    background-image: url(imagem/fundobranco.jpeg);
     display: flex;
     flex-direction: column;
     padding-top: 40px;
