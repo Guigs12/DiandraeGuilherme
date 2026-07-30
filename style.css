@@ -271,7 +271,7 @@ body {
 
 @media(max-width: 583px) {
     .apresentacao {
-        height: 100px;
+        height: 0px;
     }
 
     .apresentacao section {
