@@ -47,3 +47,9 @@
     background-color: #c65038;
     color: #ffffff;
 }
+
+@media(max-width: 583px) {
+    .apresentacao img {
+        width: 80%;
+    }
+}
