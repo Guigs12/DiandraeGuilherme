@@ -291,6 +291,10 @@ body {
     .icons .pcentral {
         font-size:20px;
     }
+
+    .confirm h2{
+        margin-bottom: 1204px;
+    }
 }
 
 @media(max-width: 400px) {
