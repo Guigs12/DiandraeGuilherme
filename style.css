@@ -276,6 +276,10 @@ body {
         height: 100px;
     }
 
+    .apresentacao section {
+        margin: 20px 0px;
+    }
+
     .imgtop img {
         height: 400px;
     }
