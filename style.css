@@ -278,6 +278,10 @@ body {
         margin: 20px 0px;
     }
 
+    .apresentacao p {
+        margin-top: -372px;
+    }
+
     .imgtop img {
         height: 400px;
     }
