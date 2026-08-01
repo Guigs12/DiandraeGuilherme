@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'name';
-    src: url('Bolinker Quantum') format(trutype), url(/font/daisy-fillo-graphic/Daisy.otf);
+    src: url('font/daisy-fillo-graphic/Daisy.otf') format('opentype');
 }
 
 body {
