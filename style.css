@@ -286,6 +286,10 @@ body {
         height: 400px;
     }
 
+    .carrosel {
+        margin-top: 0px;
+    }
+
     .carrosel p {
         width: 82%;
     }
@@ -294,7 +298,7 @@ body {
         }
 
     .text p {
-        font-weight: 32px;
+        font-weight: 38px;
     }
 
     .icons .pcentral {
