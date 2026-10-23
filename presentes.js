@@ -136,7 +136,7 @@
 
   function iconeDoPresente(nome) {
     const n = normalizar(nome);
-
+    if (n.includes("toalhas de mesa")) return "🍽️";
     if (/air fryer|chaleira|sanduicheira/.test(n)) return "🔌";
     if (/panela|frigideira|assadeira|forma de bolo/.test(n)) return "🍳";
     if (/copo|taca|xicara/.test(n)) return "🥂";
