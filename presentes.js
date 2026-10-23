@@ -22,7 +22,8 @@
     "Suporte de detergente", "Tábua de cortar carne",
     "Talheres", "Tapete", "Tapete para banheiro",
     "Toalhas de banho", "Toalhas de mesa",
-    "Toalhas de rosto", "Xícaras e Pires"
+    "Toalhas de rosto", "Xícaras e Pires",
+    "Micro-ondas"
   ];
 
   const config = window.CONFIG_PRESENTES || {};
